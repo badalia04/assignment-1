@@ -1,0 +1,7 @@
+# Sum of Cubes
+n=int(input('value of n = '))           # enter any value of n
+a= [x**3 for x in range(n)]             #comprehensive list for cube of numbers
+total = 0                               # initial value for totalling of cube of elements
+for i in a:                             # for loop
+    total= total + i
+print(total)                            # print total of cube of elements 
